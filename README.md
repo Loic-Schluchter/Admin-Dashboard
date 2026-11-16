@@ -3,7 +3,7 @@
 Un tableau de bord administrateur réalisé dans le cadre du parcours Intermediate HTML and CSS de The Odin Project.
 
 ## Voir le projet en ligne
-[Admin-Dashboard](https://exemple.com)
+[Admin-Dashboard](https://loic-schluchter.github.io/Admin-Dashboard/)
 ## Objectif
 
 Reproduire une interface de tableau de bord administrateur en utilisant principalement CSS Grid pour organiser les différentes sections de la page.
