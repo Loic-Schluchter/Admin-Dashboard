@@ -7,8 +7,231 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Admin-Dashboard</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
 </head>
 <body>
+<aside class="sidebar">
+    <header>
+        <div class="sidebar-header">
+            <img src="./svg/vector.svg" alt="header-image">
+            <h1>Dashboard</h1>
+        </div>
+        <ul class="first-nav-section">
+            <li>
+                <div>
+                    <img src="./svg/home.svg" alt="Home">
+                    <a href="">Home</a>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="./svg/card.svg" alt="Profile">
+                    <a href="">Profile</a>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="./svg/message.svg" alt="Messages">
+                    <a href="">Messages</a>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="./svg/clock.svg" alt="History">
+                    <a href="">History</a>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="./svg/files.svg" alt="Tasks">
+                    <a href="">Tasks</a>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="./svg/group.svg" alt="Communities">
+                    <a href="https://www.youtube.com/watch?v=3nh7wk-Dw2M" rel="noreferrer noopener" target="_blank">Communities</a>
+                </div>
+            </li>
+        </ul>
+        <ul class="second-nav-section">
+            <li>
+                <img src="./svg/cog.svg" alt="Settings">
+                <a href="">Settings</a>
+            </li>
+            <li>
+                <img src="./svg/support.svg" alt="Support">
+                <a href="">Support</a>
+            </li>
+            <li>
+                <img src="./svg/shield.svg" alt="Privacy">
+                <a href="https://www.youtube.com/watch?v=Aq5WXmQQooo" rel="noreferrer noopener"
+                   target="_blank">Privacy</a>
+            </li>
+        </ul>
+    </header>
+</aside>
+<header class="main-header">
+    <div class="main-header-up">
+        <div class="search-bar">
+            <label for="search"><img src="./svg/search.svg" alt="search" class="header-small-icons"></label>
+            <input type="text" id="search">
+        </div>
+        <div class="user-profile">
+            <img src="./svg/bell.svg" alt="notifications" class="header-small-icons">
+            <img src="./svg/pika.svg" alt="profile-picture" class="user-picture">
+            <h2>Morgan Oakley</h2>
+        </div>
+    </div>
+    <div class="main-header-down">
+        <div class="profile-welcome">
+            <img src="./svg/pika.svg" alt="profile-picture">
+            <div>
+                <p>Hi there,</p>
+                <h2>Morgan Oakley (@morgan)</h2>
+            </div>
+        </div>
+        <div>
+            <div>
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="left-section">
+        <h3 class="h3-upped">Your projects</h3>
+        <div class="projects-grid">
+            <article class="project-article">
+                <h3>Super Cool Project</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad assumenda deserunt, distinctio dolor
+                    eveniet explicabo harum mollitia sequi tenetur. Deserunt dicta, dignissimos dolorem eos est, harum
+                    molestias, natus nisi odio praesentium rerum sunt! Deleniti deserunt eius exercitationem fuga in
+                    iure, laborum neque nulla placeat reiciendis sapiente, similique velit, vitae.</p>
+                <div class="project-actions">
+                    <img src="./svg/star.svg" alt="star"><img src="./svg/eye.svg" alt="eye"><img src="./svg/share.svg"
+                                                                                                 alt="share">
+                </div>
+            </article>
+            <article class="project-article">
+                <h3>Less Cool Project</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium autem eligendi enim id itaque
+                    minus molestias non perspiciatis sint tempora! Dolores eos iusto perferendis quod repellat
+                    repudiandae velit vero voluptas.</p>
+                <div class="project-actions">
+                    <img src="./svg/star.svg" alt="star"><img src="./svg/eye.svg" alt="eye"><img src="./svg/share.svg"
+                                                                                                 alt="share">
+                </div>
+            </article>
+            <article class="project-article">
+                <h3>Impossible App</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias architecto asperiores at consectetur
+                    culpa doloremque eligendi expedita in iste libero magni minus molestiae nam numquam, officiis
+                    perferendis porro quos reiciendis rem saepe, similique sunt voluptas, voluptatibus. Animi atque ex
+                    id.</p>
+                <div class="project-actions">
+                    <img src="./svg/star.svg" alt="star"><img src="./svg/eye.svg" alt="eye"><img src="./svg/share.svg"
+                                                                                                 alt="share">
+                </div>
+            </article>
+            <article class="project-article">
+                <h3>Easy Peasy App</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto ea error in, mollitia odio
+                    quae? Cupiditate ipsa iste sequi.</p>
+                <div class="project-actions">
+                    <img src="./svg/star.svg" alt="star"><img src="./svg/eye.svg" alt="eye"><img src="./svg/share.svg"
+                                                                                                 alt="share">
+                </div>
+            </article>
+            <article class="project-article">
+                <h3>Ad Blocker</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus neque optio praesentium repudiandae
+                    vitae! Beatae, consequatur delectus enim eos eum maiores pariatur vel vero. Accusantium blanditiis
+                    consectetur deserunt earum esse et impedit ipsam iusto magni, obcaecati perspiciatis qui, temporibus
+                    tenetur!</p>
+                <div class="project-actions">
+                    <img src="./svg/star.svg" alt="star"><img src="./svg/eye.svg" alt="eye"><img src="./svg/share.svg"
+                                                                                                 alt="share">
+                </div>
+            </article>
+            <article class="project-article">
+                <h3>Money Maker</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam blanditiis distinctio doloribus
+                    enim iure laudantium, magnam nemo nihil provident repudiandae! Ab aliquam autem exercitationem harum
+                    laboriosam neque odio quis repudiandae vel voluptas! A asperiores autem culpa enim impedit iusto
+                    unde voluptas? Deleniti dignissimos esse ex, iure magni quam quas quis!</p>
+                <div class="project-actions">
+                    <img src="./svg/star.svg" alt="star"><img src="./svg/eye.svg" alt="eye"><img src="./svg/share.svg"
+                                                                                                 alt="share">
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="right-section">
+        <div class="announcements">
+            <h3 class="h3-upped">Announcements</h3>
+            <section class="side-article side-card-org">
+                <article>
+                    <h3>Site Maintenance</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam debitis eum ipsum magnam qui
+                        reprehenderit.</p>
+                </article>
+                <article class="border-up-down">
+                    <h3>Community Share Day</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias cumque
+                        dignissimos fugiat
+                        nesciunt
+                        officiis, veritatis?</p>
+                </article>
+                <article>
+                    <h3>Updated Privacy Policy</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad assumenda debitis excepturi nobis,
+                        suscipit vel.</p>
+                </article>
+            </section>
+        </div>
+        <div class="trending ">
+            <h3 class="h3-upped">Trending</h3>
+            <section class="side-article side-card-org">
+                <article>
+                    <img src="./svg/ankward.svg" alt="">
+                    <div>
+                        <h3>@tega</h3>
+                        <p>World Peace Builder</p>
+                    </div>
 
+                </article>
+                <article>
+                    <img src="./svg/handsome.svg" alt="">
+                    <div>
+                        <h3>@morgan</h3>
+                        <p>Super Cool Project</p>
+                    </div>
+
+                </article>
+                <article>
+                    <img src="./svg/frog.svg" alt="">
+                    <div>
+                        <h3>@kendall</h3>
+                        <p>Life Changing App</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./svg/doge.svg" alt="">
+                    <div>
+                        <h3>@alex</h3>
+                        <p>No Traffic Maker</p>
+                    </div>
+                </article>
+            </section>
+        </div>
+
+    </section>
+</main>
 </body>
 </html>
